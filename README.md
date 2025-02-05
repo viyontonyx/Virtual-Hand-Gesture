@@ -2,28 +2,20 @@
 
 # Gesture Controlled Virtual Mouse &nbsp;[![](https://img.shields.io/badge/python-3.8.5-blue.svg)](https://www.python.org/downloads/) [![platform](https://img.shields.io/badge/platform-windows-green.svg)](https://github.com/xenon-19/Gesture_Controller) 
 
-Gesture Controlled Virtual Mouse makes human computer interaction simple by making use of Hand Gestures and Voice Commands. The computer requires almost no direct contact. All i/o operations can be virtually controlled by using static and dynamic hand gestures along with a voice assistant. This project makes use of the state-of-art Machine Learning and Computer Vision algorithms to recognize hand gestures and voice commands, which works smoothly without any additional hardware requirements. It leverages models such as CNN implemented by [MediaPipe](https://github.com/google/mediapipe) running on top of pybind11. It consists of two modules: One which works direct on hands by making use of MediaPipe Hand detection, and other which makes use of Gloves of any uniform color. Currently it works on Windows platform.
+Gesture Controlled Virtual Mouse makes human-computer interaction simple by making use of Hand Gestures and Voice Commands. The computer requires almost no direct contact. All i/o operations can be virtually controlled by using static and dynamic hand gestures along with a voice assistant. This project makes use of state-of-the-art Machine Learning and Computer Vision algorithms to recognize hand gestures and voice commands, which work smoothly without any additional hardware requirements. It leverages models such as CNN implemented by [MediaPipe](https://github.com/google/mediapipe) running on top of pybind11. It consists of two modules: One which works directly on hands by making use of MediaPipe Hand detection, and the other which makes use of Gloves of any uniform colour. Currentl,y it works on the Windows platform.
 
- _Video Demonstration: [link](https://www.youtube.com/watch?v=ufm6tfgo-OA&ab_channel=Proton)_<br>
-Note: Use Python version: 3.8.5
-
-# Features
- _click on dropdown to know more_ <br>
-
-### Gesture Recognition:
+### Gesture Recognition: demo_media
 <details>
 <summary>Neutral Gesture</summary>
  <figure>
-  <img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/palm.gif" alt="Palm" width="711" height="400"><br>
-  <figcaption>Neutral Gesture. Used to halt/stop execution of current gesture.</figcaption>
+  <figcaption>Neutral Gesture. Used to halt/stop the execution of the current gesture.</figcaption>
 </figure>
 </details>
- 
 
+ 
 <details>
 <summary>Move Cursor</summary>
-  <img src="https://github.com/xenon-19/Gesture_Controller/blob/e20edfb1f368ffa600d96bd91031942ec97cb2ab/demo_media/move%20mouse.gif" alt="Move Cursor" width="711" height="400"><br>
-  <figcaption>Cursor is assigned to the midpoint of index and middle fingertips. This gesture moves the cursor to the desired location. Speed of the cursor movement is proportional to the speed of hand.</figcaption>
+  <figcaption>Cursor is assigned to the midpoint of the index and middle fingertips. This gesture moves the cursor to the desired location. The speed of the cursor movement is proportional to the speed of the hand.</figcaption>
 </details>
 
 <details>
@@ -244,20 +236,16 @@ Note: Use Python version: 3.8.5
   ```
   ( You can enable Gesture Recognition by using the command "Proton Launch Gesture Recognition" )
   
-  Or to run only Gesture Recognition without the voice assisstant:
+  Or to run only Gesture Recognition without the voice assistant:
   
-  Uncomment last 2 lines of Code in the file `Gesture_Controller.py`
+  Uncomment the last 2 lines of Code in the file `Gesture_Controller.py`
   ```bash 
   python Gesture_Controller.py
   ```
-  
 
-  
 # Collaborators
-  | |  |  |  |  |
-  | ------------- | ------------- | ------------- | ------------- | ------------- |
-  | Viral Doshi | [GitHub](https://github.com/Viral-Doshi) | Email | [LinkedIn](https://www.linkedin.com/in/viral-doshi-5a7737190/) | Instagram |
-  | Nishiket Bidawat | [Github](https://github.com/xenon-19) | [Email](mailto:bidawatnishiket@gmail.com) | [LinkedIn](https://www.linkedin.com/in/nishiket-bidawat-74b419193/) | [Instagram](https://myanimelist.net/profile/Xenon1901) |
-  | Ankit Sharma | [GitHub](https://github.com/ankit-4129) | [Email](mailto:ankitsharma.rbt@gmail.com) | LinkedIn | Instagram |
-  | Parth Sakariya | [Github](https://github.com/parth-12) | [Email](mailto:parthsakariya12@icloud.com) | [LinkedIn](https://www.linkedin.com/in/parth-sakariya-1886b2193/) | [Instagram](https://www.instagram.com/parth_sak12/) |
+Saiyam Jain (22215102)
+Viyon Tony (22215133)
+Rynal Gilbert (22215100)
+Samarth Suri (22215106)
   
