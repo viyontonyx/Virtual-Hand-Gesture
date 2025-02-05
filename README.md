@@ -1,8 +1,8 @@
 
 
-# Gesture Controlled Virtual Mouse &nbsp;[![](https://img.shields.io/badge/python-3.8.5-blue.svg)](https://www.python.org/downloads/) [![platform](https://img.shields.io/badge/platform-windows-green.svg)](https://github.com/xenon-19/Gesture_Controller) 
+# Virtual Hand Gesture Mouse &nbsp;[![](https://img.shields.io/badge/python-3.8.5-blue.svg)](https://www.python.org/downloads/) [![platform](https://img.shields.io/badge/platform-windows-green.svg)](https://github.com/xenon-19/Gesture_Controller) 
 
-Gesture Controlled Virtual Mouse makes human-computer interaction simple by making use of Hand Gestures and Voice Commands. The computer requires almost no direct contact. All i/o operations can be virtually controlled by using static and dynamic hand gestures along with a voice assistant. This project makes use of state-of-the-art Machine Learning and Computer Vision algorithms to recognize hand gestures and voice commands, which work smoothly without any additional hardware requirements. It leverages models such as CNN implemented by [MediaPipe](https://github.com/google/mediapipe) running on top of pybind11. It consists of two modules: One which works directly on hands by making use of MediaPipe Hand detection, and the other which makes use of Gloves of any uniform colour. Currentl,y it works on the Windows platform.
+Gesture-controlled virtual mouse makes human-computer interaction simple by using hand gestures and voice commands. The computer requires almost no direct contact. All i/o operations can be virtually controlled by using static and dynamic hand gestures along with a voice assistant. This project makes use of state-of-the-art Machine Learning and Computer Vision algorithms to recognize hand gestures and voice commands, which work smoothly without any additional hardware requirements. It leverages models such as CNN implemented by [MediaPipe](https://github.com/google/mediapipe) running on top of pybind11. It consists of two modules: One which works directly on hands by making use of MediaPipe Hand detection, and the other which makes use of Gloves of any uniform colour. Currently, it works on the Windows platform.
 
 ### Gesture Recognition: demo_media
 <details>
@@ -15,18 +15,16 @@ Gesture Controlled Virtual Mouse makes human-computer interaction simple by maki
  
 <details>
 <summary>Move Cursor</summary>
-  <figcaption>Cursor is assigned to the midpoint of the index and middle fingertips. This gesture moves the cursor to the desired location. The speed of the cursor movement is proportional to the speed of the hand.</figcaption>
+  <figcaption> The Cursor is assigned to the midpoint of the index and middle fingertips. This gesture moves the cursor to the desired location. The speed of the cursor movement is proportional to the speed of the hand.</figcaption>
 </details>
 
 <details>
 <summary>Left Click</summary>
-<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/left%20click.gif" alt="Left Click" width="711" height="400"><br>
  <figcaption>Gesture for single left click</figcaption>
 </details>
 
 <details>
 <summary>Right Click</summary>
-<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo_media/right%20click.gif" alt="Right Click" width="711" height="400"><br>
  <figcaption>Gesture for single right click</figcaption>
 </details>
 
