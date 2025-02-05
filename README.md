@@ -194,10 +194,6 @@ Gesture-controlled virtual mouse makes human-computer interaction simple by usin
   Anaconda Distribution: To download click [here](https://www.anaconda.com/products/individual).
   
   ### Procedure
-  ```bash
-  git clone https://github.com/xenon-19/Gesture-Controlled-Virtual-Mouse.git
-  ```
-  For detailed information about cloning visit [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
   
   Step 1: 
   ```bash
